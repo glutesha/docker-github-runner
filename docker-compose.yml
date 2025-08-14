@@ -1,0 +1,12 @@
+services:
+  runner:
+    build:
+      context: runner
+      dockerfile: Dockerfile
+    container_name: runner-personal-web
+    restart: always
+    environment:
+      - REPO=${REPO}
+      - TOKEN=${TOKEN}
+      - NAME=${NAME}
+      - LABELS=${LABELS}
