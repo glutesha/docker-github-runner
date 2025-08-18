@@ -2,7 +2,8 @@
 
 REPO=$REPO
 ACCESS_TOKEN=$TOKEN
-
+NAME=$NAME
+LABELS=$LABELS
 
 cd /home/docker/actions-runner
 
